@@ -1,0 +1,71 @@
+:root {
+    --title-color: blue;
+    --txt-color: grey;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-title {
+    color: var(--title-color);
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.content-subtitle {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--txt-color);
+    margin-bottom: 50px;
+}
+
+.content-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 900px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.content-list-item {
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 8px 4px 8px 1px rgba(0, 0, 0, 0.236);
+    background: url(./images/yoga.jpg) left / 200px 200px no-repeat;
+    color: var(--txt-color);
+    width: 420px;
+    height: 200px;
+    display: flex;
+    justify-content: right;
+}
+
+.content-list-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    text-align: left;
+}
+
+.content-list-item-title {
+    font-size: 18px;
+    font-weight: 700;
+    width: 160px;
+}
+
+.content-list-item-desc {
+    font-weight: 400;
+    font-size: 12px;
+    width: 180px;
+}
+
+.content-list-item-desc-span {
+    padding-top: 15px;
+    font-weight: 600;
+    display: block;
+}
