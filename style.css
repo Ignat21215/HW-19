@@ -36,7 +36,7 @@
     border: 0;
     border-radius: 10px;
     box-shadow: 8px 4px 8px 1px rgba(0, 0, 0, 0.236);
-    background: url(./images/yoga.jpg) left / 200px 200px no-repeat;
+    background: url(/images/yoga.jpg) left / 200px 200px no-repeat;
     color: var(--txt-color);
     width: 420px;
     height: 200px;
